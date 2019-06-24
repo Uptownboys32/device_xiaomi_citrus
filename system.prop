@@ -45,6 +45,12 @@ ro.nfc.port=I2C
 # Time
 persist.timed.enable=true
 
+# USB debugging on boot
+persist.sys.usb.config=mtp,adb 
+ro.adb.secure=0 
+ro.secure=0
+ro.debuggable=1
+
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
