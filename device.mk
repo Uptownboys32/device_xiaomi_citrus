@@ -183,5 +183,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-qti
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/citrus/citrus-vendor.mk)
