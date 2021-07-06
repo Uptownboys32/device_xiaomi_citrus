@@ -84,5 +84,10 @@ TARGET_COPY_OUT_PRODUCT := product
 
 BUILD_WITHOUT_VENDOR := true
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := bengal
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
+
 # Inherit the proprietary files
 include vendor/xiaomi/citrus/BoardConfigVendor.mk
