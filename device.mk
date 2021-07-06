@@ -221,6 +221,14 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.qcom.rc \
+    init.qcom.usb.rc \
+    init.target.rc \
+    ueventd.qcom.rc^
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
