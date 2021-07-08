@@ -58,6 +58,16 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    libcamera2ndk_vendor \
+    libgui_vendor \
+    vendor.qti.hardware.camera.postproc@1.0.vendor
+
+PRODUCT_PACKAGES += \
+    Snap
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
