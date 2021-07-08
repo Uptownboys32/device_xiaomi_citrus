@@ -96,5 +96,9 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Sepolicy
+include device/qcom/sepolicy/SEPolicy.mk
+
+
 # Inherit the proprietary files
 include vendor/xiaomi/citrus/BoardConfigVendor.mk
