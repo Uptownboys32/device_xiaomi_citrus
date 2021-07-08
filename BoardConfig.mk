@@ -103,9 +103,11 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2021-06-01
+
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
-
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
