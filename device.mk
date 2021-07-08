@@ -115,6 +115,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhwbinder.vendor
 
+# Lights
+PRODUCT_PACKAGES += \
+    lights.bengal
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/citrus
