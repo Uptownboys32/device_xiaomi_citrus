@@ -10,5 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    device/xiaomi/citrus
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/citrus/citrus-vendor.mk)
